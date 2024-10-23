@@ -49,7 +49,7 @@ function firstQuestion(){
 // move random button póition
 function moveButton() {
     var audio = new Audio('sound/Swish1.mp3');
-    audio.play();
+    //audio.play();
     var x = Math.random() * ($(window).width() - $('#no').width()) * 0.9 ;
     var y = Math.random() * ($(window).height() - $('#no').height()) * 0.9;
     var left = x + 'px';
@@ -64,8 +64,34 @@ var n = 0;
 $('#no').mousemove(function() {
     if (n < 1)
         switchButton();
-    if (n > 1)
+    if(n==1){
+        document.getElementById('no').textContent = 'Ơ kìaaaa ';
+    }
+   
+    if (n > 1){
         moveButton();
+        if(n>2&& n<40){
+        document.getElementById('no').textContent = 'Bé hông bấm được này đâuu :3';
+        document.getElementById('yes').textContent = 'Chọn này điiii';
+    }
+        if(n>40&& n<70){
+            document.getElementById('no').textContent = 'Thiệt hông bấm được đâu :3';
+            document.getElementById('yes').textContent = 'Cái nàyyyy nè';
+        }
+        if(n>70&& n<120){
+            document.getElementById('no').textContent = 'Sao kiếm nút này hoài vậy :<<';
+            document.getElementById('yes').textContent = 'cái này mới đúnggggg';
+        }
+        if(n>120&& n<190){
+            document.getElementById('no').textContent = 'Thôi màaaaaa :<<';
+            document.getElementById('yes').textContent = 'Hiccccc :<<';
+
+        }
+        if(n>190&& n<240){
+            document.getElementById('no').textContent = 'Anh bé rất buồn đó :((';}
+        if(n>250){
+            document.getElementById('no').textContent = 'Chết trong tâm ròi!';}
+    }
     n++;
 });
 $('#no').click(() => {
@@ -96,7 +122,8 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('sound/tick.mp3');
+    window.location.href = 'choose.html';
+/*    var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
         title: CONFIG.question,
@@ -129,5 +156,6 @@ $('#yes').click(function() {
             })
         }
     })
+*/
 })
 
