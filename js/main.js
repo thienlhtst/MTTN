@@ -70,26 +70,26 @@ $('#no').mousemove(function() {
    
     if (n > 1){
         moveButton();
-        if(n>2&& n<40){
+        if(n>2&& n<25){
         document.getElementById('no').textContent = 'Bé hông bấm được này đâuu :3';
         document.getElementById('yes').textContent = 'Chọn này điiii';
     }
-        if(n>40&& n<70){
+        if(n>25&& n<50){
             document.getElementById('no').textContent = 'Thiệt hông bấm được đâu :3';
             document.getElementById('yes').textContent = 'Cái nàyyyy nè';
         }
-        if(n>70&& n<120){
+        if(n>50&& n<75){
             document.getElementById('no').textContent = 'Sao kiếm nút này hoài vậy :<<';
             document.getElementById('yes').textContent = 'cái này mới đúnggggg';
         }
-        if(n>120&& n<180){
+        if(n>75&& n<100){
             document.getElementById('no').textContent = 'Thôi màaaaaa :<<';
             document.getElementById('yes').textContent = 'Hiccccc :<<';
 
         }
-        if(n>180&& n<240){
+        if(n>100&& n<125){
             document.getElementById('no').textContent = 'Anh bé rất buồn đó :((';}
-        if(n>250){
+        if(n>150){
             document.getElementById('no').textContent = 'Chết trong tâm ròi!';}
     }
     n++;
