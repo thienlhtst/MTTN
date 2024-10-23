@@ -82,12 +82,12 @@ $('#no').mousemove(function() {
             document.getElementById('no').textContent = 'Sao kiếm nút này hoài vậy :<<';
             document.getElementById('yes').textContent = 'cái này mới đúnggggg';
         }
-        if(n>120&& n<190){
+        if(n>120&& n<180){
             document.getElementById('no').textContent = 'Thôi màaaaaa :<<';
             document.getElementById('yes').textContent = 'Hiccccc :<<';
 
         }
-        if(n>190&& n<240){
+        if(n>180&& n<240){
             document.getElementById('no').textContent = 'Anh bé rất buồn đó :((';}
         if(n>250){
             document.getElementById('no').textContent = 'Chết trong tâm ròi!';}
