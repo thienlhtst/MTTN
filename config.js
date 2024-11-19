@@ -1,6 +1,6 @@
 const CONFIG = {
     introTitle: 'Hee luu Bé iuuuu!',
-    introDesc: `Anh biết là anh đã làm em giận rồi,Mà trong đâyyy là tâm tư anh á nhắn vào nhaa`,
+    introDesc: `Anh biết là anh đã làm em giận rồi,Mà đâyyy là lời anh muốn nói á nhắn vào nhaa`,
     btnIntro: 'oke',
     title: 'Bé iu tha lỗi cho anh nhaaa :<, Đừng giận anhhh nữa màaaaa',
     desc: 'Bé không trả lời hoặc thoát ra, tức là bé đã hết gì với anh ròi :((( ',
